@@ -1,119 +1,71 @@
-# Petty-Patents
-.
+Data Analysis of Kenya & Developing Countries
 
-🌍 Data Analysis of Kenya & Developing Countries
+Web Scraping • Trend Analysis • Comparative Insights • Interactive Dashboards
 
-Web Scraping • Trend Analysis • Comparative Insights • Dashboard
+Project Overview
 
-📌 Overview
+This project delivers a comprehensive data-driven analysis of Kenya and other developing countries using real-world data obtained from publicly available online sources.
+The objective is to convert unstructured web data into structured datasets, extract meaningful economic and social insights, and present findings through clear and interactive visualizations.
 
-This project analyzes Kenya and other developing countries using real-world data collected through web scraping.
-The objective is to transform publicly available online data into structured datasets, analyze trends and patterns, and present insights through interactive visualizations and dashboards.
+The project demonstrates a complete end-to-end data analytics workflow, spanning data acquisition, processing, analysis, and visualization.
 
-The project demonstrates an end-to-end data analysis pipeline — from data collection to insight generation.
+Project Objectives
 
-🎯 Key Goals
+Collect real-world datasets using ethical web scraping techniques
 
-Collect real-world data using web scraping
+Clean, preprocess, and standardize raw data for analysis
 
-Clean and preprocess raw datasets
+Perform exploratory and comparative analysis across multiple countries
 
-Perform exploratory and comparative analysis
+Identify key economic, social, and demographic trends
 
-Identify economic and social trends
+Communicate insights through intuitive visualizations and dashboards
 
-Visualize insights using charts and dashboards
+Data Collection
 
-🌐 Data Collection
+Data is sourced exclusively from publicly accessible and reliable platforms, including:
 
-Data is sourced from publicly available websites including:
+Government and national statistics portals
 
-Government portals
+International development and economic organizations
 
-Development and economic organizations
+Open data repositories and public databases
 
-Open data platforms
+Web Scraping Tools
 
-Tools Used for Scraping
+Requests for retrieving web-based data
 
-requests
+BeautifulSoup for parsing and extracting structured information from HTML
 
-BeautifulSoup
+Selenium for handling dynamic and JavaScript-driven web content
 
-Selenium (for dynamic content)
+All data collection follows ethical standards and is conducted strictly for educational and analytical purposes.
 
-Data is collected only from publicly accessible sources and used for educational and analytical purposes.
+Analysis Performed
 
-🧠 Analysis Performed
+Time-series analysis to observe long-term trends
 
-Time-series trend analysis
+Cross-country comparisons between Kenya and other developing economies
 
-Cross-country comparison (Kenya vs other developing countries)
+Indicator-based analysis focusing on economic, social, and demographic metrics
 
-Indicator-based analysis (economic, social, demographic)
+Pattern and anomaly detection to identify significant deviations
 
-Pattern and anomaly detection
+Technology Stack
 
-📊 Dashboard & Visualizations
+Programming Language: Python
 
-The dashboard provides:
+Data Analysis and Processing: Pandas, NumPy
 
-Interactive charts
+Data Visualization: Matplotlib, Seaborn, Plotly, Tableau
 
-Country-wise comparisons
+Web Scraping: Requests, BeautifulSoup, Selenium
 
-Trend visualization over time
-
-Filter-based data exploration
-
-Built using:
-
-Matplotlib / Seaborn / Plotly
-
-Power BI / Tableau / Streamlit (depending on implementation)
-
-🛠️ Tech Stack
-
-Language: Python
-
-Data Analysis: Pandas, NumPy
-
-Visualization: Matplotlib, Seaborn, Plotly
-
-Web Scraping: BeautifulSoup, Requests, Selenium
-
-Environment: Jupyter Notebook / VS Code
-
-📁 Project Structure
-├── data/
-│   ├── raw/
-│   └── cleaned/
-├── notebooks/
-│   ├── scraping.ipynb
-│   ├── cleaning.ipynb
-│   └── analysis.ipynb
-├── dashboard/
-├── README.md
-
-🚀 How to Run
-git clone https://github.com/your-username/project-name.git
-cd project-name
-pip install -r requirements.txt
-
-
-Open notebooks in Jupyter or run the dashboard script.
-
-📈 Future Improvements
-
-Add more developing countries
-
-Automate periodic data scraping
-
-Forecast trends using machine learning
+Development Environment: Jupyter Notebook, VS Code
 
 Deploy dashboard as a web app
 
-👤 Author
+
 
 Karan Pandita
 Data Analysis | Data Science
