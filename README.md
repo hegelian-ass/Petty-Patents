@@ -65,6 +65,7 @@ Development Environment: Jupyter Notebook, VS Code
 
 Deploy dashboard as a web app
 
+To see the trends of petty patents in the developed countries versus developing countries and the coming correlations 
 
 
 Karan Pandita
