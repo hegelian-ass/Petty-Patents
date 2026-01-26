@@ -1,6 +1,6 @@
 Data Analysis of Kenya & Developing Countries
 
-Web Scraping • Trend Analysis • Comparative Insights • Interactive Dashboards
+Web Scraping • Trend Analysis • Comparative Insights • Interactive Dashboardss
 
 Project Overview
 
