@@ -59,7 +59,7 @@ def scrape_utility_models(page_num=3):
             body = driver.find_element(By.TAG_NAME, "body")
             print(body.text[:500])
 
-            # Save full HTML for inspection
+            
             with open('page_source.html', 'w', encoding='utf-8') as f:
                 f.write(driver.page_source)
             print("\nFull page source saved to 'page_source.html'")
@@ -77,7 +77,7 @@ def scrape_utility_models(page_num=3):
                     print(f"Error extracting item: {e}")
                     continue
 
-            # Save results
+            
             if results:
                 df = pd.DataFrame(results)
                 df.to_csv('utility_models_data.csv', index=False)
@@ -100,4 +100,5 @@ def scrape_utility_models(page_num=3):
 
 
 if __name__ == "__main__":
+
     scrape_utility_models(page_num=3)
