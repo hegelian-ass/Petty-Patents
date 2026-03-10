@@ -8,9 +8,6 @@ import time
 
 
 def scrape_utility_models(page_num=3):
-    """
-    Scrape utility models data from IP Database
-    """
 
     chrome_options = Options()
     chrome_options.add_argument('--headless')
@@ -70,7 +67,7 @@ def scrape_utility_models(page_num=3):
 
                     data = {
                         'text': item.text,
-                        'html': item.get_attribute('innerHTML')[:200]  # First 200 chars
+                        'html': item.get_attribute('innerHTML')[:200]
                     }
                     results.append(data)
                 except Exception as e:
@@ -102,3 +99,4 @@ def scrape_utility_models(page_num=3):
 if __name__ == "__main__":
 
     scrape_utility_models(page_num=3)
+
