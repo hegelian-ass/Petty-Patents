@@ -1,72 +1,119 @@
-Data Analysis of Kenya & Developing Countries
+# Petty Patents Analysis
 
-Web Scraping • Trend Analysis • Comparative Insights • Interactive Dashboardss
+This project focuses on collecting, cleaning, and analyzing petty patent data to understand patterns in innovation, filing trends, and domain distribution.
 
-Project Overview
+---
 
-This project delivers a comprehensive data-driven analysis of Kenya and other developing countries using real-world data obtained from publicly available online sources.
-The objective is to convert unstructured web data into structured datasets, extract meaningful economic and social insights, and present findings through clear and interactive visualizations.
+## Project Overview
 
-The project demonstrates a complete end-to-end data analytics workflow, spanning data acquisition, processing, analysis, and visualization.
+The objective of this project is to build an end-to-end data pipeline that:
 
-Project Objectives
+* Collects petty patent data through web scraping
+* Cleans and structures the raw dataset
+* Performs exploratory data analysis
+* Extracts meaningful insights about innovation trends
 
-Collect real-world datasets using ethical web scraping techniques
+The analysis aims to provide a clearer picture of how petty patents evolve over time and across different domains.
 
-Clean, preprocess, and standardize raw data for analysis
+---
 
-Perform exploratory and comparative analysis across multiple countries
+## Tech Stack
 
-Identify key economic, social, and demographic trends
+* Python
+* Pandas, NumPy
+* Matplotlib, Seaborn
+* BeautifulSoup / Selenium
+* Jupyter Notebook
 
-Communicate insights through intuitive visualizations and dashboards
+---
 
-Data Collection
+## Project Structure
 
-Data is sourced exclusively from publicly accessible and reliable platforms, including:
+```
+Petty-Patents/
+│── data/                 # Raw and processed datasets
+│── notebooks/            # Analysis notebooks
+│── scripts/              # Scraping and preprocessing scripts
+│── outputs/              # Visualizations and results
+│── README.md
+```
 
-Government and national statistics portals
+---
 
-International development and economic organizations
+## Data Collection
 
-Open data repositories and public databases
+Data was collected using web scraping techniques. The dataset includes:
 
-Web Scraping Tools
+* Patent title
+* Filing date
+* Applicant name
+* Category or domain
 
-Requests for retrieving web-based data
+---
 
-BeautifulSoup for parsing and extracting structured information from HTML
+## Data Cleaning
 
-Selenium for handling dynamic and JavaScript-driven web content
+The raw dataset required preprocessing before analysis. The following steps were performed:
 
-All data collection follows ethical standards and is conducted strictly for educational and analytical purposes.
+* Removal of missing and inconsistent values
+* Standardization of formats such as dates and text
+* Deduplication of records
+* Structuring data for analysis
 
-Analysis Performed
+---
 
-Time-series analysis to observe long-term trends
+## Exploratory Data Analysis
 
-Cross-country comparisons between Kenya and other developing economies
+The analysis focused on identifying trends and patterns, including:
 
-Indicator-based analysis focusing on economic, social, and demographic metrics
+* Year-wise distribution of patent filings
+* Applicant-wise contribution
+* Domain/category distribution
+* Frequency and growth trends
 
-Pattern and anomaly detection to identify significant deviations
+---
 
-Technology Stack
+## Key Insights
 
-Programming Language: Python
+* Patent filings show a gradual increase over time
+* Certain domains dominate the dataset, indicating concentrated innovation areas
+* A small number of applicants contribute a significant portion of filings
+* The data suggests a growing interest in practical and utility-based innovations
 
-Data Analysis and Processing: Pandas, NumPy
+---
 
-Data Visualization: Matplotlib, Seaborn, Plotly, Tableau
+## Conclusions
 
-Web Scraping: Requests, BeautifulSoup, Selenium
+Petty patents provide useful insight into grassroots innovation. The analysis indicates increasing participation in innovation activities, though contributions remain uneven across applicants and domains.
 
-Development Environment: Jupyter Notebook, VS Code
+These findings can be useful for understanding innovation trends and may support decision-making in research, policy, and investment contexts.
 
-Deploy dashboard as a web app
+---
 
-To see the trends of petty patents in the developed countries versus developing countries and the coming correlations 
+## Future Work
 
+* Apply machine learning models for trend prediction
+* Build an interactive dashboard for visualization
+* Automate data collection pipelines
+* Perform text analysis on patent descriptions
 
-Karan Pandita
-Data Analysis | Data Science
+---
+
+## Learning Outcomes
+
+* Built a complete data pipeline from data collection to analysis
+* Gained experience working with unstructured real-world data
+* Improved skills in data cleaning and preprocessing
+* Developed the ability to extract insights from large datasets
+
+---
+
+## Contributing
+
+Contributions are welcome. Feel free to fork the repository and suggest improvements.
+
+---
+
+## Acknowledgment
+
+If you find this project useful, consider supporting it by sharing feedback or contributing to its improvement.
